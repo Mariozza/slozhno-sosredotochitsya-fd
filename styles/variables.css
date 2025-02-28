@@ -15,10 +15,10 @@
   --title-color: #FFC2E6;
   --text-color: #353430;
   --accent-color: #FF8DCB;
-  --h2-color: var(--text-color):
+  --h2-color: var(--text-color);
   --h3-color: #353430;
-  --bg-image: url("../images/cover-image-light.png");
-  --bg-color: #FF8DCB;
+  --bg-image: url("../images/cover-image-light1.png");
+  --bg-color: #fff1f7;
   --rect-color: #353430;
   --focus-color:var(--text-color);
   --hover-color:rgba(50, 49, 45, 0.4);
