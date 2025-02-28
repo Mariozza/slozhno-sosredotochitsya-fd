@@ -28,5 +28,7 @@
     --bg-image: url("../images/cover-image-light.png");
     --bg-color: #FF8DCB;
     --rect-color: #353430;
+    --focus-color:var(--text-color);
+    --hover-color:rgba(50, 49, 45, 0.4);
   }
 }
