@@ -14,7 +14,7 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  min-height: calc(100dvh - 20px);
+  block-size: 100vh;
 }
 
 .header-top-container {
@@ -206,7 +206,7 @@ list-style: none;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  min-height: calc(100dvh - 20px);
+  block-size: 100vh;
 }
 
 .footer__theme-title {
@@ -221,7 +221,6 @@ list-style: none;
 @media (width >= 768px) {
   .header {
     padding: 20px;
-    min-height: calc(100dvh - 40px);
   }
 
   .header__theme-menu-list {
@@ -314,7 +313,6 @@ list-style: none;
 
   .footer {
      padding: 20px;
-     min-height: calc(100dvh - 40px);
   }
 }
 
