@@ -2,28 +2,12 @@
   --title-color: #db00ff;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --h2-color: var(--accent-color);
+  --h2-color: #ff0070;
   --h3-color: #000028;
   --bg-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
-  --rect-color: var(--accent-color);
-  --focus-color: var(--accent-color);
+  --rect-color: #ff0070;
+  --focus-color: #ff0070;
   --hover-color: rgba(255, 0, 112, 0.4);
-  --button-color: var(--accent-color);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root.theme-auto {
-    --title-color: #db00ff;
-    --text-color: #f1b2ce;
-    --accent-color: #ff0070;
-    --h2-color: var(--accent-color);
-    --h3-color: #000028;
-    --bg-image: url("../images/cover-image-dark.png");
-    --bg-color: #000028;
-    --rect-color: var(--accent-color);
-    --focus-color: var(--accent-color);
-    --hover-color: rgba(255, 0, 112, 0.4);
-    --button-color: var(--accent-color);
-  }
+  --button-color: #ff0070;
 }
