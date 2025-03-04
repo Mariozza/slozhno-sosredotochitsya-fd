@@ -31,7 +31,7 @@
     --button-color: #353430;
   }
 
-.theme-auto .header_theme-REC-text {
+  .theme-auto .header_theme-REC-text {
     display: none;
   }
 }

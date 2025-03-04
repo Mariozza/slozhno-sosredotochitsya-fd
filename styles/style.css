@@ -23,8 +23,8 @@
   content: "";
   inline-size: 25px;
   block-size: 25px;
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--rect-color);
+  border-inline-end: 1px solid var(--rect-color);
   justify-self: end;
 }
 
@@ -32,8 +32,8 @@
   content: "";
   inline-size: 25px;
   block-size: 25px;
-  border-block-end: 1px solid var(--accent-color);
-  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--rect-color);
+  border-inline-start: 1px solid var(--rect-color);
   justify-self: start;
   align-self: self-end;
 }
@@ -88,7 +88,7 @@
 
 .header__theme-menu-button {
   appearance: none;
-  border-style: none;
+  border: 1px solid transparent;
   inline-size: 70px;
   block-size: 26px;
   background-color: transparent;
@@ -168,7 +168,7 @@
 }
 
 .main-text-link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--text-color);
 }
 
 .main-text-link:focus-visible {
@@ -247,9 +247,11 @@
 
   .main-section-accent {
     padding-block-start: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
 
-  .main-section-3 {
+  .increased-border {
     padding-block-start: 31px;
   }
 
